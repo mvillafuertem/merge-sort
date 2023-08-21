@@ -32,7 +32,7 @@ lazy val root = (project in file("."))
       Wart.Null,
       Wart.OptionPartial,
       Wart.Return,
-      Wart.StringPlusAny,
+      // Wart.StringPlusAny,
       // Wart.Throw,
       Wart.TryPartial,
       // Wart.Var
