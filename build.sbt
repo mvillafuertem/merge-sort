@@ -33,9 +33,9 @@ lazy val root = (project in file("."))
       Wart.OptionPartial,
       Wart.Return,
       Wart.StringPlusAny,
-      Wart.Throw,
+      // Wart.Throw,
       Wart.TryPartial,
-      Wart.Var
+      // Wart.Var
     ),
     commandsMessage
   )
